@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-01T09:41:14.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="ZJk77LFEv4Z6lLAH-Axv" version="13.6.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-09-01T14:33:40.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="JBqQfknMtrq9Il_ieGs0" version="13.6.6" type="github" pages="7">
   <diagram id="FRCW2q15ErDtUaf3Jh6r" name="Page-1">
     <mxGraphModel dx="1662" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -894,7 +894,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CYdY2Rmn0fn-yPabuFms" name="Page-6">
-    <mxGraphModel dx="2724" dy="1894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2724" dy="1845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="3zWWhheDN5bM01z9GBP9-0" />
         <mxCell id="3zWWhheDN5bM01z9GBP9-1" parent="3zWWhheDN5bM01z9GBP9-0" />
@@ -1243,6 +1243,35 @@
             <mxPoint x="-71.25994694960218" y="531" as="sourcePoint" />
             <mxPoint x="170" y="470" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="h7G1Rui0a8__L81lRRDS" name="Helm">
+    <mxGraphModel dx="1583" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="5Ig_PeGxij_Mt3rvkPAt-0" />
+        <mxCell id="5Ig_PeGxij_Mt3rvkPAt-1" parent="5Ig_PeGxij_Mt3rvkPAt-0" />
+        <mxCell id="5Ig_PeGxij_Mt3rvkPAt-2" value="Chart" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;strokeColor=#76FF0D;fillColor=#FFBEAD;" vertex="1" parent="5Ig_PeGxij_Mt3rvkPAt-1">
+          <mxGeometry x="90" y="460" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5Ig_PeGxij_Mt3rvkPAt-3" value="Helm" style="shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=img/clipart/Gear_128x128.png;strokeColor=#76FF0D;fillColor=#FFBEAD;" vertex="1" parent="5Ig_PeGxij_Mt3rvkPAt-1">
+          <mxGeometry x="240" y="465" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Ig_PeGxij_Mt3rvkPAt-5" value="K8s" style="swimlane;strokeColor=#76FF0D;fillColor=#FFBEAD;" vertex="1" parent="5Ig_PeGxij_Mt3rvkPAt-1">
+          <mxGeometry x="340" y="380" width="570" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="5Ig_PeGxij_Mt3rvkPAt-6" value="Ingress" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#76FF0D;fillColor=#FFBEAD;" vertex="1" parent="5Ig_PeGxij_Mt3rvkPAt-5">
+          <mxGeometry x="90" y="80" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5Ig_PeGxij_Mt3rvkPAt-8" value="API" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#76FF0D;fillColor=#FFFFFF;" vertex="1" parent="5Ig_PeGxij_Mt3rvkPAt-5">
+          <mxGeometry x="10" y="40" width="60" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5Ig_PeGxij_Mt3rvkPAt-9" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.scale_out_backup_repository2;rotation=90;" vertex="1" parent="5Ig_PeGxij_Mt3rvkPAt-5">
+          <mxGeometry x="180" y="80" width="54" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="5Ig_PeGxij_Mt3rvkPAt-10" value="App" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#76FF0D;fillColor=#FFFFFF;" vertex="1" parent="5Ig_PeGxij_Mt3rvkPAt-5">
+          <mxGeometry x="257.5" y="80" width="55" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
